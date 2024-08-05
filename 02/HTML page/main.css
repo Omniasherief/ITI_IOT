@@ -1,0 +1,74 @@
+/*1*/
+
+p,div,span
+{
+    font-family: "Lucida Calligraphy";
+}
+div>h1
+{
+    text-align: center;
+}
+
+
+/*2*/
+#header {
+    width: 100%;
+    height: 60px;
+    background-color:rgb(5, 3, 79);
+}
+/*3*/
+#linksbar {
+    width: 25%;
+    background-color: gray;
+    float: left;
+}
+
+/*4*/
+#content {
+    width: 75%;
+    height: 70%;
+    background-color: pink;
+    float: left;
+}
+/*5*/
+
+.none-bullet-list {
+    list-style-type: none;
+}
+
+
+#linksbar li > a {
+    color:rgb(5, 3, 79);
+    background-color: pink;
+    text-decoration: none;
+}
+
+#content > h2 + p {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#loginform {
+    border: 2px dashed rgb(20,70,60);
+}
+
+input[type="text"] {
+    background-color: rgb(244, 255, 126);
+}
+input[type="text"]:focus {
+    background-color: white;
+}
+/*6*/
+#content > #aboutus {
+    color: rgb(9, 126, 130);
+}
+
+#aboutus {
+    color: rgb(79, 3, 11);
+}
+
+/* #content > #aboutus has higher specificity, it takes precedence and overrides #aboutus
+if i reverse order it is still has highr specificity*/
+
+/*7*/
+/*when i Use !important with #aboutus  forces it to apply its color even it has not the higher specificity .*/

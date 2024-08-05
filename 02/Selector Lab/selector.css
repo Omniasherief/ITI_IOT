@@ -1,0 +1,51 @@
+/* 1- Select p elements and make them red */
+p {
+    color: red !important;
+}
+
+
+/* 2- Select p and div elements */
+p, div {
+    border: 3px solid rgb(17, 255, 0);
+   margin: 8px 1px 8px 0px; 
+
+    
+}
+
+/* 3- Select p with class mainClass direct child for div with id myDiv and make it styled */
+#mydiv > p.mainClass {
+    font-weight: bold;
+    color: blue;
+    border: 3px solid rgb(20, 181, 193);
+    opacity: 90%;
+}
+
+/* 4- Select all p inside div and style them */
+div p {
+    background-color: lightgrey;
+    font-weight: bold;
+    color: rgb(255, 0, 179);
+    border: 3px solid rgb(170, 85, 198);
+    opacity: 70%;
+}
+
+/* 5- Select span elements after div */
+div~span {
+    color: green;
+}
+
+
+/* 6- Select p with class myClass */
+p.myClass {
+    
+    color: rgb(204, 238, 36);
+}
+
+/* 7- Select div with id myDiv */
+#mydiv {
+    padding: 10px;
+    background-color: rgb(71, 93, 134);
+    border: 2px dashed rgb(255, 173, 20);
+    background-image: url("https://pixabay.com/images/search/sea/");
+}
+  
