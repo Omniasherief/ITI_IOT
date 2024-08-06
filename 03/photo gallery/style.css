@@ -1,0 +1,29 @@
+.imagecontainer {
+
+    display: flex;
+    
+
+    padding: 20px;
+    
+    flex-wrap: wrap;
+
+   
+    justify-content: space-between;
+    
+    
+    }
+    
+    .image-item {
+    
+    flex: auto;
+
+    
+    }
+    
+    @media (max-width: 300px) {
+    
+    .imagecontainer {
+   
+    flex-direction: column;
+
+    }}
