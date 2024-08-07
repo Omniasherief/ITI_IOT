@@ -1,0 +1,38 @@
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Experiment</title>
+</head>
+<body>
+    
+    <script src="External.js"></script>
+    <script src="Internal.js"></script>
+  
+    <script>
+  
+        console.log("Embedded  script");
+
+    
+        console.log(number1 + number2);
+
+       //flag is considered as 1
+        console.log(flag + number2); 
+
+       //here flag is considered as true  //omniatrue
+        console.log(firstName + flag); 
+
+   
+        console.log(number1 + firstName); //3omnia
+
+ 
+        console.log(number1 * flag); //3
+
+       
+        console.log(number1 / lastName); //  NaN: not a number
+
+      
+        console.log(`${firstName} ${middleName} ${lastName}`);
+    </script>
+</body>
+</html>
