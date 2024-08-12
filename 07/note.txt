@@ -1,0 +1,4 @@
+DOM -> Document Object Model
+
+allow to access all html element/tag -- adding and deleting and manpulating tags or attribute 
+
