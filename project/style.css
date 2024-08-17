@@ -1,0 +1,79 @@
+/* Reset some default styling */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #343a40;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 30px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 20px;
+}
+
+.post {
+    flex: 1 1 calc(33.333% - 20px);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+}
+
+.post h2 {
+    font-size: 1.25rem;
+    margin: 10px;
+}
+
+.post p {
+    font-size: 0.9rem;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .post {
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .post {
+        flex: 1 1 100%;
+    }
+}
