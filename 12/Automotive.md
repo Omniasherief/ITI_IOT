@@ -20,19 +20,19 @@ The Internet of Things (IoT) is revolutionizing the automotive industry by trans
 ### 1. Connected Cars and Vehicle Telematics
 
 - **Description:** IoT enables vehicles to communicate with each other (V2V), infrastructure (V2I), and the cloud. This connectivity supports telematics services like real-time navigation, traffic updates, and vehicle diagnostics.
-
-
-**V2V** 
-
-— exchanges data about a vehicle’s place, speed, and dynamics and also helps prevent collisions; 
-
-**V2I** 
-
-— exchanges data between a vehicle and road infrastructure (traffic lights, lane markings, and risk booths), and enables drivers to save their time by managing traffic and overflows or ranges; 
-
-**V2P** 
-
-— allows a pedestrian to connect with C-V2X via the mobile app, where they can check information about city transportation or taxis.
+      
+      
+  **V2V** 
+      
+      — exchanges data about a vehicle’s place, speed, and dynamics and also helps prevent collisions; 
+      
+  **V2I** 
+      
+      — exchanges data between a vehicle and road infrastructure (traffic lights, lane markings, and risk booths), and enables drivers to save          their time by managing traffic and overflows or ranges; 
+      
+  **V2P** 
+      
+      — allows a pedestrian to connect with C-V2X via the mobile app, where they can check information about city transportation or taxis.
 
 
 
