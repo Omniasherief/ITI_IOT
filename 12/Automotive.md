@@ -1,11 +1,19 @@
 # IoT in the Automotive Industry: Use cases and Value
+
 ## Introduction
+
 The Internet of Things (IoT) is revolutionizing the automotive industry by transforming vehicles into smart, connected devices. This README provides an overview of key use cases for IoT in the automotive industry and explains the value chain that supports these innovations.
+
+
 ![Benefits of IoT for automotive industry](Benefits-of-IoT-for-automotive-industry-2.png.webp)
 
 
 ## Market Size
+
+
 ![Benefits of IoT for automotive industry](Market-size-of-the-automotive-IoT.png.webp)
+
+
 
 ## Use Cases
 
